@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/estiloC.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+    <header id="main-header">
+        <a href="#" id="logo-header">
+            <span class="site-name">Nicolas Condori</span>
+            <span class="site-desc">Diseño web - PySW / HTML-CSS</span>
+        </a>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+
+            </label>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="acercaDe.html">Acerca De</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fin de Cabecera de la pagina-->
+    <!-- Contenedor principal del formulario  -->
+     <div class="container">
+        <h2>Formulario de Contacto</h2>
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="Apellido">Apellido:</label>
+                <input type="text" id="Apellido" name="Apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="dni">DNI</label>
+                <input type="text" id="dni" name="dni" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electronico</label>
+                <input type="text" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea type="text" id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+     </div>
+    <!-- Fin del contenedor principal del formulario  -->
+    <!-- Inicio del pie de pagina-->
+    <footer id="main-footer">
+        <p>&copy; 2025 <a href="https://www.facebook.com" target="_blank">Diseño Web - PySW-UNJU-LQ</a>
+        </p>
+    </footer>
+    <!-- Fin del pie de pagina-->
+</body>
+</html>
